@@ -23,7 +23,7 @@ else:
 
 import json
 
-with open('faturamento.json') as f:
+with open('dados.json') as f:
     faturamento_diario = json.load(f)
 
 menor_faturamento = min(faturamento_diario)
